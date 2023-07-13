@@ -1,3 +1,7 @@
+  create or replace   view RAW.JAFFLE_SHOP.customers
+
+   as (
+/*
 with customers as (
 
     select
@@ -52,3 +56,5 @@ final as (
 )
 
 select * from final
+*/
+  );
